@@ -1,0 +1,297 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Lobster&family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+.row
+{
+margin-top:5%;
+display:flex;
+justify-content:space-between;
+
+}
+.nav-link::after{
+content:'';
+width:0%;
+height:2px;
+background:#f44336;
+display:block;
+margin:auto;
+transition:0.5s;
+}
+.nav-link:hover::after{
+width:100%;
+}
+
+.footer{
+width:100%;
+text-align:center;
+padding:30px 0;
+
+
+}
+.footer h1{
+margin-bottom:25px;
+margin-top:20px;
+font-weight:600;
+
+
+}
+.fa {
+  padding: 18px 0;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:  white;
+  color: red;
+}
+.fa-instagram {
+  background:  white;
+  color: red;
+}
+
+.fa-twitter {
+  background:  white;
+  color: red;
+}
+.fa-linkedin {
+  background: white;
+  color: red;
+}
+.sub-header{
+height:60vh;
+width:100%;
+background-image:linear-gradient(rgba( 4,9,30,0.7),rgba( 4,9,30,0.7)),url(https://www.makehappen.org/wp-content/uploads/2020/04/600-campus-75731374.jpg);
+background-position:center;
+text-align:center;
+color:#fff;
+background-size:cover;
+
+}
+.sub-header h1{
+margin-top:100px;
+
+}
+.blog-content{
+width:80%;
+margin:auto;
+padding:66px 0;
+}
+
+.blog-left{
+
+flex-basis:65%;
+}
+
+.blog-left img{
+width:100%;
+}
+
+.blog-left h2{
+color:#222;
+margin:30px 0;
+}
+.blog-left p{
+color:#999;
+padding 0;
+
+}
+.blog-right{
+flex-basis:32%;
+}
+.blog-right h3{
+background:#f44336;
+color:#fff;
+padding:7px 0;
+font-size:16px;
+margin-bottom:20px;
+text-align:center;
+}
+
+.blog-right div{
+display:flex;
+align-items:center;
+justify-content:space-between;
+color:#555;
+padding:8px;
+box-sizing:border-box;
+
+}
+.comment-box{
+border: 1px solid #ccc;
+margin: 50px 0;
+padding:10px 20px;
+}
+.comment-box h3{
+text-align:left;
+
+}
+.comment-form input, .comment-form textarea{
+width:100%;
+padding:10px;
+margin:15px 0;
+box-sizing:border-box;
+border:none;
+outline:none;
+background:#f0f0f0;
+}
+.comment-form button{
+margin:10px 0;
+}
+.hero-btn{
+display: inline-block;
+
+border:1px solid white;
+color:white;
+font-size:13px;
+background:transparent;
+positin:relative;
+cursor:pointer;
+padding:12px 34px;
+
+}
+.hero-btn:hover{
+border: 1px solid white;
+background:red;
+transition:1s;
+}
+.red-btn{
+border: 1px solid #f44336;
+background:transparent;
+color:#f44336;
+}
+.red-btn:hover{
+color:#fff;
+}
+</style>
+</head>
+<body>
+<section class="sub-header">
+<nav class="navbar " style="color:white";>
+<a href="#" class="navbar-brand" ><span style="color:red;font-size:30px;">&#127891;</span><span style="color:white;font-size:30px;font-family: 'Anton', sans-serif;">Eduford</span></a>
+<ul class="nav justify-content-end">
+<li class="nav-item"><a href="univercity.html" class="nav-link" style="color:white; font-size:20px;font-family: 'Merriweather', serif;">Home</a></li>
+<li class="nav-item"><a href="course.html" class="nav-link" style="color:white; font-size:20px;font-family: 'Merriweather', serif;">Course</a></li>
+<li class="nav-item"><a href="Aboutus.html" class="nav-link" style="color:white; font-size:20px;font-family: 'Merriweather', serif;">About</a></li>
+<li class="nav-item"><a href="blog.html" class="nav-link" style="color:white; font-size:20px;font-family: 'Merriweather', serif;">Blog</a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link" style="color:white; font-size:20px;font-family: 'Merriweather', serif;">Contact</a></li>
+</ul>
+</nav>
+<h1> Our Certification & Online Program For 2022</h1> 
+</section>
+
+<section class="blog-content">
+
+<div class="row">
+<div class="blog-left">
+<img src="https://www.essaywriting.ae/blog/wp-content/uploads/2020/08/PhD-Scholarship-for-Domestic-International-Students-at-University-of-New-England-in-Australia-1024x684.jpg">
+<h2> Our Certification & Online Program For 2022</h2>
+<p>In India, a new designation deemed universities has been created for institutions of higher education that are not universities, but work at a very high standard in a specific area of study ("An Institution of Higher Education, other than universities, working at a very high standard in specific area of study, can be declared by the Central Government on the advice of the University Grants Commission as an Institution 'Deemed-to-be-university'"). Institutions that are 'deemed-to-be-university' enjoy the academic status and the privileges of a university.[84] Through this provision many schools that are commercial in nature and have been established just to exploit the demand for higher education have sprung up.</p><br>
+
+
+<p>In Germany, universities are institutions of higher education which have the power to confer bachelor, master and PhD degrees. They are explicitly recognised as such by law and cannot be founded without government approval. The term Universität (i.e. the German term for university) is protected by law and any use without official approval is a criminal offense. Most of them are public institutions, though a few private universities exist. Such universities are always research universities. Apart from these universities, Germany has other institutions of higher education (Hochschule, Fachhochschule). Fachhochschule means a higher education institution which is similar to the former polytechnics in the British education system, the English term used for these German institutions is usually 'university of applied sciences'. They can confer master's degrees but no PhDs. They are similar to the model of teaching universities with less research and the research undertaken being highly practical. Hochschule can refer to various kinds of institutions, often specialised in a certain field (e.g. music, fine arts, business). They might or might not have the power to award PhD degrees, depending on the respective government legislation. </p>
+
+<br><p>The combined area of the Nordic countries is 3,425,804 square kilometres (1,322,710 sq mi). Uninhabitable icecaps and glaciers comprise about half of this area, mostly in Greenland. In January 2013, the region had a population of around 26 million people. The Nordic countries cluster near the top in numerous metrics of national performance, including education, economic competitiveness, civil liberties, quality of life and human development.[11] With only four language groups, the common linguistic heterogeneous heritage is one of the factors making up the Nordic identity. The Danish, Norwegian, Swedish, Icelandic and Faroese languages are all rooted in Old Norse, and Danish, Norwegian and Swedish are considered mutually intelligible. These three dominant languages are taught in schools throughout the Nordic region. </p>
+
+<br><p>Each of the Nordic countries has its own economic and social models, sometimes with large differences from its neighbours, but to varying degrees sharing the Nordic model of economy and social structure,[12] namely a market economy combined with strong labour unions and a universalist welfare sector financed by high taxes. There is a high degree of income redistribution and little social unrest.These include support for universalist welfare state aimed specifically at enhancing individual autonomy and promoting social mobility; a corporatist system involving a tripartite arrangement where representatives of labor and employers negotiate wages and labor market policy mediated by the government;[13] and a commitment to private ownership (with some caveats) within a mixed economy.[14]</p>
+
+<div class="comment-box">
+<h3>Leave a Comment</h3>
+<form class="comment-form">
+<input type="text" placeholder="Enter Name">
+
+<input type="email" placeholder="Enter Email">
+<textarea rows="5" placeholder="Your Comment"></textarea>
+<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+</form>
+
+
+</div>
+</div>
+
+<div class="blog-right">
+<h3>Post Categories</h3>
+
+
+<div>
+<span>Business Analytics</sapn>
+<span style="padding-left:190px;">21</sapn>
+</div>
+
+<div>
+<span>Data Science</sapn>
+<span style="padding-left:222px;" >15</sapn>
+</div>
+
+
+<div>
+<span>Machine Learning</sapn>
+<span style="padding-left:190px;">15</sapn>
+</div>
+
+
+<div>
+<span>Computer Science</sapn>
+<span style="padding-left:185px;">34</sapn>
+</div>
+
+<div>
+<span>AutoCAD</sapn>
+<span style="padding-left:250px;">42</sapn>
+</div>
+
+<div>
+<span>Journalism</sapn>
+<span style="padding-left:240px;">22</sapn>
+</div>
+
+<div>
+<span>Commerce</sapn>
+<span style="padding-left:240px;">30</sapn>
+</div>
+</div>
+</div>
+</section>
+
+<section class="footer">
+<h4>About Us</h4>
+<p>art into pedantry. Hence University education.A University<br> should be a place of light, of liberty, and of learning.</p>
+<center style="padding-bottom:20px;">
+<a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#" class="fa fa-instagram "></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#" class="fa fa-linkedin"></a>
+</center>
+<p>Made with <span style="color:red;">&#9829;</span> by Me</p>
+</section>
+
+</body>
+</html>
